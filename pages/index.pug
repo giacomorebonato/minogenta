@@ -1,0 +1,14 @@
+extends layout.pug
+
+block content
+  include nav.pug
+  section.main-section
+    form(id='player-form')
+      button(id='play', type='button') play
+      button(id='stop', type='button') Stop
+      select(id='play-sel')
+        option(value='drums') Drums
+        option(value='twinkle') Twinkle
+    canvas#canvas
+block scripts
+  script(src='index.ts')

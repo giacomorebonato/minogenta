@@ -1,0 +1,29 @@
+{
+  "name": "minogenta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build pages/index.pug",
+    "start": "parcel pages/index.pug -p 3000",
+    "test": "jest"
+  },
+  "keywords": [
+    "music",
+    "ai",
+    "fun",
+    "web"
+  ],
+  "author": "Giacomo Rebonato",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.3",
+    "sass": "^1.21.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@magenta/music": "^1.8.0"
+  }
+}
